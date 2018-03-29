@@ -57,7 +57,7 @@ class Maze():
                 if j == 1:
                     print("·", end=" ")
                 else:
-                    print("⎕", end=" ")
+                    print("█", end="█")
             print()
 
     #@classmethod #TODO: make _populate work with this
@@ -281,7 +281,7 @@ class SolveMaze():
             for col in row:
                 coord = (col, row)
                 if col == 0:
-                    print("⎕", end=" ")
+                    print("█", end="█")
                 elif col == 1:
                     print("·", end=" ")
                 elif col == 2:
